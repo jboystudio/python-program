@@ -1,5 +1,5 @@
 
-"""
+
 #programme to find largest number of 3 numbers
 num1 = int(input("enter the first number: "))
 num2 = int(input("enter the second number: "))
@@ -38,8 +38,8 @@ elif(years_of_service < 6):
     print("final salary is: ", bonus3 + salary)
 else:
     print("no bonus amount")
-"""
-"""
+
+
 #create a grading system using the following conditions:
 #SCORE            GRADE
 #70 - 100           A
@@ -47,7 +47,7 @@ else:
 #50 - 59            C
 #40 - 49            D
 #0 - 39             E
-"""
+
 math = int(input("Enter your maths marks: "))
 python = int(input("Enter your python marks: "))
 geo = int(input("Enter your geo marks: "))
@@ -65,4 +65,4 @@ elif(average > 40 and average < 49):
 elif(average < 39):
         print("YOU'VE FAILED")
 else:
-        print("Your marks are irrelevant")
+        print("Your marks are invalid")
